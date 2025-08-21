@@ -1,5 +1,6 @@
 [
-	{"name": "China",
+	{
+		"name": "China",
 		"leaderName": "Wu Zetian",
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Scientific",
@@ -21,7 +22,7 @@
 
 		"favoredReligion": "Taoism",
 		"uniqueName": "Art of War",
-		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [150]% faster","[+100]% Golden Age length","[+1 gold, +1 science] per [1] population [in all cities]"],
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [150]% faster","[+100]% Golden Age length","[+2 gold, +2 science] per [2] population [in all cities]"],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
