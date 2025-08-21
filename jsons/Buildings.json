@@ -26,4 +26,29 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[100]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
+	},
+	{
+		"name": "State School",
+		"replaces": "Public school",
+		"uniqueTo": "China",
+		"science": 2,
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "University",
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": ["[+2 Science] per [1] population [in this city]"],
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Manufactory",
+		"replaces": "Factory",
+		"uniqueTo": "China",
+		"cost": 360,
+		"production": 3,
+		"percentStatBonus": {"production": 20},
+		"specialistSlots": {"Engineer": 3},
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
 ]
