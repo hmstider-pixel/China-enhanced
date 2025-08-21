@@ -51,4 +51,49 @@
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Silk Market",
+		"replaces": "Market",
+		"uniqueTo": "China",
+		"gold": 8,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 225},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Heavenly Temple",
+		"replaces": "Temple",
+		"uniqueTo": "China",
+		"maintenance": 0,
+		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"faith": 2,
+		"happiness": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Ancestral Hall",
+        "replaces": "Monument",
+		"uniqueTo": "China",
+		"culture": 2,
+		"faith": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Altar",
+		"replaces": "Shrine",
+		"uniqueTo": "China",
+		"faith": 2,
+		"science": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>"]
+	}
 ]
