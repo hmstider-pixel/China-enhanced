@@ -1,25 +1,29 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "imperial court",
+		"replaces": "courthouse",
+		"uniqueTo": "China",
+		"maintenance": 0,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Mathematics"
 	},
 	{
-		"name": "Breeders",
+		"name": "Rice Granary",
+		"replaces": "Granary",
+		"uniqueTo": "China",
+		"food": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 1,
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Aqueducts",
 		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"uniqueTo": "China",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[100]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
-	}
 ]
