@@ -1,7 +1,7 @@
 [
 	{
 		"name": "imperial court",
-		"replaces": "courthouse",
+		"replaces": "Courthouse",
 		"uniqueTo": "China",
 		"maintenance": 0,
 		"hurryCostModifier": 50,
@@ -29,7 +29,7 @@
 	},
 	{
 		"name": "State School",
-		"replaces": "Public school",
+		"replaces": "Public School",
 		"uniqueTo": "China",
 		"science": 2,
 		"specialistSlots": {"Scientist": 2},
